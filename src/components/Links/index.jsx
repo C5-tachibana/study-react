@@ -1,4 +1,4 @@
-import classes from './Links.module.css'
+import classes from 'src/components/Links/Links.module.css'
 
 const ITEMS = [
   {
@@ -22,7 +22,6 @@ const ITEMS = [
     description:"Instantly deploy your Next.js site to a public URL with Vercel."
   },
 ];
-
 
 export function Links() {
   return (
