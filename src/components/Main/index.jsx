@@ -4,14 +4,6 @@ import { Links } from 'src/components/Links'
 import { useEffect } from 'react'
 
 export function Main(props) {
-  useEffect(() => {
-    console.log("マウント時");
-    document.body.style.backgroundColor = "lightBlue";
-    return () => {
-      console.log("アンマウント時");
-      document.body.style.backgroundColor = "Blue";
-    }
-  }, []);
 
   return (
     <main className={classes.main}>
